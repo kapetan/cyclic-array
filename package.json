@@ -1,0 +1,31 @@
+{
+  "name": "cyclic-array",
+  "version": "1.0.0",
+  "description": "Simple cyclic array (buffer) implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --verbose && tape test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapetan/cyclic-array.git"
+  },
+  "keywords": [
+    "cyclic",
+    "circular",
+    "array",
+    "queue",
+    "stack",
+    "head",
+    "tail"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapetan/cyclic-array/issues"
+  },
+  "homepage": "https://github.com/kapetan/cyclic-array#readme",
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  }
+}
